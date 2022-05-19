@@ -4,38 +4,132 @@
     <meta charset="UTF-8">
 
     <!-- Boostratp core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     <!--<link rel="icon" href="{% static 'images/favicon.ico' %}" type='image/x-icon'/>
     <link rel="shortcut icon" href="{% static 'images/favicon.ico' %}" type='image/x-icon'/>-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <title>Katie</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="">Table</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="">Heat Map</a>
-            </li>
-            </li>
-        </ul>
-    </div>
-</nav>
-<div class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <h1>Katie</h1>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Katie Harkrider</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/pages/MyStory.html">My story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container pb-5">
+        <div class="row pt-3">
+            <div class="col align-self-center">
+                <img src="images/kh.jpg" class="rounded mx-auto d-block" style="height: 200px">
+            </div>
+        </div>
+
+        <div class="row pt-3">
+            <div class="col">
+                <h1 class="h1">Hi, I'm Katie!</h1>
+            </div>
+        </div>
+
+        <div class="row pyt-3">
+            <div class="col">
+                <p>I graduated from The University of Texas at Austin in 2018 with a degree in Public Relations. Hook 'em!</p>
+                <p>I am currently a Social Media Manager and Communications Specialist, with experience in event planning and project management. </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary">Email Me</button>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-6">
+                <img src="images/kh.jpg" class="rounded" style="">
+            </div>
+            <div class="col-6">
+                <div class="row">
+                    <h2 class="h2">Social Media Manager</h2>
+                    <p>I have complete ownership of 8 Facebook Pages, 4 Twitter accounts, 3 Instagram profiles, and 4 YouTube channels. I curate content
+                        and copy for each page weekly and keep a monthly list of all holidays, national days or events going on within the company. I track
+                        analytics for every post on each platform and keep track of monthly follower counts. I also have experience in producing a podcast by
+                        reaching out and scheduling guests and putting the interviews on a podcast hosting website to Apple, Spotify, etc., as well as posting
+                        each interview on all social media platforms.</p>
+                </div>
+                <div class="row pt-2">
+                    <h2 class="h2">Communications Specialist </h2>
+                    <p>I have experience writing press releases and blog posts. I write invitation letters for keynote speakers as well as write invitations
+                        for elected officials for all events. I was Assistant Project Manager for the National Association of State Trust Lands (NASTL) in Austin
+                        in January 2020 and Project Manager for the Grand Opening Houston in February 2020. I planned and coordinated all virtual events and
+                        virtual speakers after March 2020. Work extensively in Adobe, Microsoft Office, and have experience working with Mailchimp for sending
+                        out press releases and Meltwater for maintaining contacts and press lists.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col">
+                <h2 class="h2 pb-3">Main Social Channels I Manage:</h2>
+                <h3 class="h3">Texas General Land Office (June 2021 - Present)</h3>
+                <p><a href="">Facebook</a> | <a href="">Twiiter</a> | <a href="">Instagram</a> | <a href="">LinkedIn</a></p>
+                <h3 class="h3">Texas General Land Office Adopt-A-Beach Program (January 2020 - Present)</h3>
+                <p><a href="">Facebook</a> | <a href="">Twiiter</a> | <a href="">Instagram</a> | <a href="">LinkedIn</a></p>
+                <h3 class="h3">Save Texas History (January 2020 - Present)</h3>
+                <p><a href="">Facebook</a> | <a href="">Twiiter</a> | <a href="">Instagram</a> | <a href="">LinkedIn</a></p>
+                <h3 class="h3">Voices of Veterans (June 2021 - Present*)</h3>
+                <p><a href="">Facebook</a> | <a href="">Twiiter</a> | <a href="">Instagram</a> | <a href="">LinkedIn</a></p>
+                <p>*The podcast host is no longer with the agency so the podcast is on hold.</p>
+                <p>**Anywhere you can listen to podcasts. Podcasts are hosted through Liberated Syndication.</p>
+            </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-6">
+                <div class="card rounded shadow-lg">
+                    <img src="images/IMG_1405.jpg">
+                    <div class="card-body">
+                        <h5 class="card-text">@texasadoptabeach Earth Day 2022</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="card rounded shadow-lg">
+                    <img src="images/IMG_1405.jpg">
+                    <div class="card-body">
+                        <h5 class="card-text">@texasadoptabeach Earth Day 2022</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<script src="js/bootstrap.bundle.js"></script>
 </body>
 </html>
